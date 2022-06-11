@@ -14,7 +14,7 @@ public class RentServiceApplication {
     public static Logger Logger = LoggerFactory.getLogger(RentServiceApplication.class);
     @PostConstruct
     public void into(){
-        Logger.info("Application Started...");
+        Logger.info("Application Started... first");
     }
     public static void main(String[] args) {
         Logger.info("Application executed...");
