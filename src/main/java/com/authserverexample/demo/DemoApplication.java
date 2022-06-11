@@ -7,7 +7,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @SpringBootApplication
 public class DemoApplication {
 
-    public static void mains(String[] args) {
+    public static void main(String[] args) {
         System.out.println("testing");
         SpringApplication.run(DemoApplication.class, args);
     }
